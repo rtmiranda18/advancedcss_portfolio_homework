@@ -1,1 +1,10 @@
-li {display: inline;}
+header {
+    background-color: aqua;
+    color: blue;
+    position:sticky
+}
+
+li {
+    color: blue;
+    display: inline;
+}
