@@ -1,3 +1,9 @@
+@media screen and (min-width: 360px) {
+    body {
+      background-color: greenyellow;
+    }
+}
+
 header {
     background-color: aqua;
     color: blue;
@@ -26,7 +32,7 @@ li {
 #aboutme {
     background-color: aqua;
     color: blue;
-    width: 300px;
+    width: 100%;
     border: 15px solid blue;
     padding: 50px;
     margin: 20px;
@@ -51,7 +57,8 @@ section {
 #work {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    object-fit: cover;
+    justify-content: space-evenly;
 }
 
 footer {
@@ -59,6 +66,6 @@ footer {
     color: blue;
     width: 100%;
     border: 15px solid blue;
-    padding: 50px;
+    padding: 20px;
     margin: 20px;
 }
