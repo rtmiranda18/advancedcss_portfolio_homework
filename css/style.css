@@ -1,7 +1,16 @@
 header {
     background-color: aqua;
     color: blue;
-    position:sticky
+    position:sticky;
+    text-align: left;
+}
+
+body {
+    background-color: coral;
+}
+
+nav {
+    text-align: right;
 }
 
 li {
