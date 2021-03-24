@@ -3,6 +3,10 @@ header {
     color: blue;
     position:sticky;
     text-align: left;
+    width: 100%;
+    border: 15px solid blue;
+    padding: 20px;
+    margin: 20px;
 }
 
 body {
@@ -10,10 +14,51 @@ body {
 }
 
 nav {
+    color:blue; 
     text-align: right;
 }
 
 li {
     color: blue;
     display: inline;
+}
+
+#aboutme {
+    background-color: aqua;
+    color: blue;
+    width: 300px;
+    border: 15px solid blue;
+    padding: 50px;
+    margin: 20px;
+    float: right;
+}
+
+.aboutmeandphoto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section {
+    color: blue;
+    background-color: aqua;
+    width: 300px;
+    border: 15px solid blue;
+    padding: 50px;
+    margin: 20px;
+}
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+footer {
+    background-color: aqua;
+    color: blue;
+    width: 100%;
+    border: 15px solid blue;
+    padding: 50px;
+    margin: 20px;
 }
